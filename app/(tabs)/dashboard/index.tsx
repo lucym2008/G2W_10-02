@@ -9,6 +9,8 @@ import { getVagas } from '@/src/firebase/functions/fuctionsVagas/getVagas';
 import { auth, db } from '@/src/firebase/config';
 import { addDoc, collection } from 'firebase/firestore';
 
+// MORRA THEO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 const Index = () => {
   const [jobs, setJobs] = useState([]);
   const [filteredJobs, setFilteredJobs] = useState([]);
